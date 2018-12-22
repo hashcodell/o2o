@@ -1,0 +1,10 @@
+2018-12-22 22:11:49.662 [main] DEBUG c.e.o2o.dao.split.DynamicDataSourceInterceptor - 设置方法[com.ebaotech.o2o.dao.AreaDao.queryArea] use [slave] Strategy, SqlCommanType [SELECT]..
+2018-12-22 22:11:49.682 [main] DEBUG com.ebaotech.o2o.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2018-12-22 22:11:49.730 [main] DEBUG com.ebaotech.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT area_id, area_name, priority, create_time, last_edit_time FROM tb_area ORDER BY priority DESC 
+2018-12-22 22:11:49.823 [main] DEBUG com.ebaotech.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2018-12-22 22:11:49.865 [main] DEBUG com.ebaotech.o2o.dao.AreaDao.queryArea - <==      Total: 2
+2018-12-22 22:18:15.019 [main] DEBUG c.e.o2o.dao.split.DynamicDataSourceInterceptor - 设置方法[com.ebaotech.o2o.dao.AreaDao.queryArea] use [slave] Strategy, SqlCommanType [SELECT]..
+2018-12-22 22:18:15.054 [main] DEBUG com.ebaotech.o2o.dao.split.DynamicDataSourceHolder - 所使用的数据源为：slave
+2018-12-22 22:18:15.218 [main] DEBUG com.ebaotech.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT area_id, area_name, priority, create_time, last_edit_time FROM tb_area ORDER BY priority DESC 
+2018-12-22 22:18:15.672 [main] DEBUG com.ebaotech.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2018-12-22 22:18:15.743 [main] DEBUG com.ebaotech.o2o.dao.AreaDao.queryArea - <==      Total: 2

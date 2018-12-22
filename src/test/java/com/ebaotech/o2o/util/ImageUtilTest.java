@@ -16,6 +16,6 @@ public class ImageUtilTest {
 	public static void main(String[] args) throws IOException {
 		String basePath = Thread.currentThread().getContextClassLoader().getResource("").getPath();
 		System.out.println(basePath);
-		Thumbnails.of("d://a.jpg").size(200, 200).watermark(Positions.BOTTOM_CENTER,ImageIO.read(new File("d://watermark.jpg")), 0.25f).outputQuality(0.8f).toFile("d://newa.jpg");
+		Thumbnails.of("F:\\doc\\a.jpg").size(200, 200).watermark(Positions.BOTTOM_CENTER,ImageIO.read(new File("F:\\doc\\watermark.jpg")), 0.25f).outputQuality(0.8f).toFile("F:\\doc\\newa.jpg");
 	}
 }

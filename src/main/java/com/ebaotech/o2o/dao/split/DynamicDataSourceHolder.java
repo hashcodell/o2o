@@ -7,8 +7,8 @@ public class DynamicDataSourceHolder {
 
     private static Logger logger = LoggerFactory.getLogger(DynamicDataSourceHolder.class);
     private static ThreadLocal<String> contextHolde = new ThreadLocal<String>();
-    public static final String DB_MASTER="master";
-    public static final String DB_SLAVE="slave";
+    public static final String DB_MASTER = "master";
+    public static final String DB_SLAVE = "slave";
 
     public static String getDBType(){
         String db = contextHolde.get();
